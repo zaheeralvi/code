@@ -1,12 +1,8 @@
 # Springboot-Api-Basic
 
 # Routes-of-Api
-/user [GET,POST]
+/counter_callback [POST]
 
 
-/user/id [PUT,DELETE]
-
-# variable
-id,
-Name,
-Address
+/counter?id={id} [Get]
+/consumption_report?duration=24h [Get]
